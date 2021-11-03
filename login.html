@@ -1,0 +1,22 @@
+<html>
+<!-- create a basic page with a title -->
+<head>
+<title>Login</title>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+<script src="src/spotify-web-api.js"></script>
+</head>
+<body>
+    <!-- create a link with the title Login to spotify -->
+    <a href="https://accounts.spotify.com/authorize?redirect_uri=https%3A%2F%2Fmiramiplaylist.mindware.com.mx%2Fplaylist.php&client_id=907c8d2ef776484897fb22f4f756abdc&response_type=code&scope=user-read-private%20playlist-read-private%20playlist-read-collaborative&state=BIbauIaus2NeGtDa&show_dialog=true" onclick="goLogin();">Login to Spotify</a>
+
+
+    <script>
+
+        function goLogin() {
+
+            console.log('login');
+
+        }
+    </script>
+</body>
+</html>

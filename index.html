@@ -1,0 +1,55 @@
+<html>
+<!-- create a basic page with a title -->
+<head>
+<title>Mira Mi Playlist | Login Page</title>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+<script src="src/spotify-web-api.js"></script>
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="hero">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+  
+        <div class="carousel-inner" role="listbox">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animated fadeInDown">Mira Mi Playlist</h2>
+                <p class="animated fadeInUp">Take your Spotify Playlist and create a Youtube Playlist to wtch</p>
+                <a href="https://accounts.spotify.com/authorize?redirect_uri=https%3A%2F%2Fmiramiplaylist.mindware.com.mx%2Fplaylist.php&client_id=907c8d2ef776484897fb22f4f756abdc&response_type=code&scope=user-read-private%20playlist-read-private%20playlist-read-collaborative&state=BIbauIaus2NeGtDa&show_dialog=true" class=" animated fadeInUp scrollto">
+                  <img src="assets/img/btn-login-spotify.png" alt="Login with Spotify">
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+      </div>
+    </section><!-- End Hero -->
+    <script>
+
+        function goLogin() {
+
+            console.log('login');
+
+        }
+    </script>
+</body>
+</html>
